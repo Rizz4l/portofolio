@@ -1,102 +1,118 @@
 <!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Portofolio Rizal</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<html lang="id">
+<head>
+  <title>Portfolio Rizal</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Portfolio Rizal - Mahasiswa Informatika yang antusias di bidang pengembangan web dan teknologi IoT. Menampilkan keahlian, proyek, dan kontak." />
+  <meta name="keywords" content="web development, IoT, portfolio, Laravel, Node.js, ESP32, RFID, React, MySQL" />
+  <meta property="og:title" content="Portfolio Rizal" />
+  <meta property="og:description" content="Mahasiswa Informatika yang fokus pada Web & IoT." />
+  <meta property="og:image" content="https://rizz4l.my.id/images/benner.jpg" />
+  <meta property="og:url" content="https://rizz4l.my.id/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .image.main {
+      max-height: 400px;
+      overflow: hidden;
+    }
+    .image.main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media screen and (max-width: 768px) {
+      .image.main {
+        max-height: 250px;
+      }
+    }
+  </style>
+</head>
+<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">RIZAL</a></h1>
-					<p>Mahasiswa Informatika yang antusias di bidang pengembangan web dan teknologi</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">My Expertise</a></li>
-						<li><a href="#three">My Projeck</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/rizz_4l?igsh=MW5naXdsMmR6cjJmeA==" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/Rizz4l/portofolio" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-						<li><a href="mailto:rizalclassroom19@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+  <!-- Header -->
+  <section id="header">
+    <header>
+      <span class="image avatar"><img src="images/avatar.jpg" alt="Foto profil Rizal, Mahasiswa Informatika" loading="lazy" /></span>
+      <h1 id="logo"><a href="#">RIZAL</a></h1>
+      <p>Mahasiswa Informatika yang antusias di bidang pengembangan web dan teknologi</p>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#expertise">My Expertise</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <ul class="icons">
+        <li><a href="#" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/rizz_4l" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/Rizz4l/portofolio" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">Github</span></a></li>
+        <li><a href="mailto:rizalclassroom19@gmail.com" class="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span class="label">Email</span></a></li>
+      </ul>
+    </footer>
+  </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/benner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Tentang Saya</h2>
-										<p>Halo! Saya Rizal, mahasiswa S1 Informatika yang antusias dalam pengembangan web, pemrograman, dan teknologi Internet of Things (IoT).</p>
-									</header>
-									<p>Saya memiliki pengalaman mengerjakan berbagai proyek, mulai dari website statis hingga aplikasi berbasis Laravel dan Node.js. Saya juga pernah membangun sistem berbasis IoT menggunakan ESP32 dan RFID untuk tugas kuliah dan eksplorasi pribadi. Saya senang mempelajari hal baru dan aktif mengikuti pelatihan serta kegiatan teknologi lainnya.</p>
-								</div>
-							</section>
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- About Section -->
+    <section id="about">
+      <div class="image main" data-position="center">
+        <img src="images/benner.jpg" alt="Gambar header Rizal - Portfolio Mahasiswa Informatika" loading="lazy" />
+      </div>
+      <div class="container">
+        <header class="major">
+          <h2>Tentang Saya</h2>
+          <p>Halo! Saya Rizal, mahasiswa S1 Informatika yang antusias dalam pengembangan web, pemrograman, dan teknologi Internet of Things (IoT).</p>
+        </header>
+        <p>Saya memiliki pengalaman mengerjakan berbagai proyek, mulai dari website statis hingga aplikasi berbasis Laravel dan Node.js. Saya juga pernah membangun sistem berbasis IoT menggunakan ESP32 dan RFID untuk tugas kuliah dan eksplorasi pribadi. Saya senang mempelajari hal baru dan aktif mengikuti pelatihan serta kegiatan teknologi lainnya.</p>
+      </div>
+    </section>
+  </div>
+</body>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="expertise">
 								<div class="container">
 									<h2>Keahlian Saya</h2>
-								<p>Berikut beberapa keahlian yang saya pelajari selama kuliah dan proyek pribadi:</p>
+									<p>Berikut beberapa keahlian yang saya pelajari selama kuliah dan proyek pribadi:</p>
 									<ul class="feature-icons">
-									<li class="icon solid fa-code">Membangun website dengan HTML, CSS, JavaScript</li>
-									<li class="icon solid fa-cubes">Membuat aplikasi menggunakan Laravel dan React</li>
-									<li class="icon solid fa-database">Mengelola database dengan MySQL & Firebase</li>
-									<li class="icon solid fa-microchip">Mengembangkan proyek IoT dengan ESP32</li>
-									<li class="icon solid fa-laptop-code">Menulis skrip Python untuk automasi</li>
-									<li class="icon solid fa-users">Bekerja dalam tim proyek dan organisasi kampus</li>
+										<li class="icon solid fa-code">Membangun website dengan HTML, CSS, JavaScript</li>
+										<li class="icon solid fa-cubes">Membuat aplikasi menggunakan Laravel dan React</li>
+										<li class="icon solid fa-database">Mengelola database dengan MySQL & Firebase</li>
+										<li class="icon solid fa-microchip">Mengembangkan proyek IoT dengan ESP32</li>
+										<li class="icon solid fa-laptop-code">Menulis skrip Python untuk automasi</li>
+										<li class="icon solid fa-users">Bekerja dalam tim proyek dan organisasi kampus</li>
 									</ul>
 								</div>
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="projects">
 								<div class="container">
-									<h2>Projeck Saya</h2>
+									<h2>Proyek Saya</h2>
 									<p>Berikut beberapa proyek yang pernah saya kerjakan, baik secara individu maupun dalam tim:</p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/proyek1.jpeg" alt="" /></a>
+											<a href="#" class="image"><img src="images/proyek1.jpeg" alt="Proyek Sistem Parkir Berbasis IoT dengan ESP32 dan RFID" /></a>
 											<div class="inner">
 												<h4>Sistem Parkir Berbasis IoT</h4>
 												<p>Sistem menggunakan ESP32, RFID, dan LED untuk mengatur akses parkir otomatis di area kampus. Data disimpan ke database dan diakses lewat website Laravel.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/proyek2.png" alt="" /></a>
+											<a href="#" class="image"><img src="images/proyek2.png" alt="Proyek Aplikasi Pengelolaan Event Musik di Kota Bandung" /></a>
 											<div class="inner">
-												<h4>Aplikasi Pengelolaan Event musik</h4>
+												<h4>Aplikasi Pengelolaan Event Musik</h4>
 												<p>Aplikasi web untuk mengelola dan mempromosikan acara musik di Kota Bandung. Menampilkan halaman utama yang dinamis dengan navigasi menuju halaman panitia dan daftar acara. Dibuat menggunakan HTML, CSS, dan JavaScript dengan desain responsif dan tampilan menarik.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/proyek3.png" alt="" /></a>
+											<a href="#" class="image"><img src="images/proyek3.png" alt="Proyek Aplikasi Pengelola Buku Perpustakaan" /></a>
 											<div class="inner">
 												<h4>Aplikasi Pengelola Buku Perpustakaan</h4>
 												<p>Sebuah aplikasi interaktif untuk memantau aktivitas penulis dan pembaca buku. Menampilkan statistik jumlah penulis, pembaca, dan penyebar buku secara real-time. Juga dilengkapi dengan daftar buku populer, info penulis, dan fitur pencarian cepat. Dibangun menggunakan HTML, CSS, dan JavaScript dengan desain UI modern dan responsif.</p>
@@ -107,7 +123,7 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+							<section id="contact">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Jika Anda tertarik bekerja sama atau memiliki pertanyaan, silakan isi formulir di bawah ini atau hubungi saya melalui email dan media sosial.</p>
@@ -127,6 +143,10 @@
 									</form>
 								</div>
 							</section>
+			</div>
+	</body>
+</html>
+
 
 						<!-- Five -->
 						<!--
